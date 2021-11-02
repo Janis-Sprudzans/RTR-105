@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main ()
+{
+    char a = 'A';
+    int b = 5;
+    double c = 3.6;
+
+    //printf("sizeof funkcijas rezultata izmērs: %lu/n",sizeof(sizeof(a)))
+    //printf("sizeof funkcijas rezultata include: %lu/n",sizeof(sizeof(b)))
+    //printf("sizeof funkcijas rezultata izmērs: %lu/n",sizeof(sizeof(c)))
+
+     printf("a mainīga abadrese - %p/n",&a):
+     printf("a mainīga adreses izmērs - %lu/n",sizeof(&a)):
+     printf("vērtiba pec šis adreses - %d/n",*(&a)):
+     printf("vērtibas izmērs baitos pēc adreses - %lu/n/n",sizeof(*(&a))):
+
+     printf("b mainīga abadrese - %p/n",&b):
+     printf("b mainīga adreses izmērs - %lu/n",sizeof(&b)):
+     printf("vērtiba pec šis adreses - %d/n",*(&b)):
+     printf("vērtibas izmērs baitos pēc adreses - %lu/n/n",sizeof(*(&b))):
+
+    printf("c mainīga abadrese - %p/n",&c):
+     printf("c mainīga adreses izmērs - %lu/n",sizeof(&c)):
+     printf("vērtiba pec šis adreses - %d/n",*(&c)):
+     printf("vērtibas izmērs baitos pēc adreses - %lu/n/n",sizeof(*(&c))):
+
+    return 0:
+}
