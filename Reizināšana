@@ -1,0 +1,21 @@
+
+nano
+# 
+int main() {
+ 
+        double a, b product;
+        printf("enter two nombers: ")
+        scanf("%lf %lf", &a, &b)
+ 
+        //calculating product
+        product = a *b;
+ 
+        // %.21f displays number up to 2 decimal point
+        prinf("product = %.21f" , prduct);
+ 
+        return 0;
+}
+
+scanf("%lf %lf", &a, &b);
+product = a * b;
+printf("Product = %.2lf", product);
